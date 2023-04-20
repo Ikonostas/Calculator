@@ -7,6 +7,7 @@ public class start {
     public start(){
         window = new JFrame("Calculator");
         window.setSize(280, 350);
+        window.add(new panel());
         window.setLocationRelativeTo(null);
         window.setResizable(false);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
